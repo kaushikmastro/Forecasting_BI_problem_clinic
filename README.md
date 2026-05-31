@@ -56,3 +56,8 @@ The forecasting model takes into account the current growth rate of existing cli
    jupyter notebook
    ```
 5. Open `Forecasting_revenues_unique_patients.ipynb` and run the cells sequentially to view the analysis and forecasts.
+
+## ✅ Notebook hygiene
+
+- Commit notebooks with cleared outputs to keep files lightweight and renderable on GitHub.
+- CI validates all `.ipynb` files (nbformat schema + no committed code-cell outputs) on push and pull requests.
